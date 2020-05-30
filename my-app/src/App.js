@@ -17,13 +17,13 @@ class App extends Component{
     setInterval(() => {
       let time = new Date()
       let day = "None"
-      if (time.getHours() > 7 && time.getHours < 12) {
+      if (time.getHours() > 7 && time.getHours() < 12) {
         day = "Good Morning!"
       }
-      else if (time.getHours() >= 12 && time.getHours < 17){
+      else if (time.getHours() >= 12 && time.getHours() < 17){
         day = "Good Afternoon!"
       }
-      else if (time.getHours() >= 17 && time.getHours < 20){
+      else if (time.getHours() >= 17 && time.getHours() < 20){
         day = "Good Evening!"
       }
       else{
