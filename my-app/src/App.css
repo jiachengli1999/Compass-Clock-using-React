@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #a9b0be;
+  /* background-color: #a9b0be; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
 .hand{
   position: absolute;
   text-align: right;
-  opacity: .5;
+  opacity: .75;
   transition: all .5s;
 }
 
@@ -24,6 +24,7 @@
 .hand.on{
   opacity: 1;
   font-size:25px;
+  font-weight: bold;
 }
 
 /* Adjust position and colors of circles*/
@@ -53,5 +54,9 @@
 
 .appName {
   position: relative;
-  top: -30px;
+  top: -10px;
+  font-size:35px;
+  font-family: "Arial";
+  font-weight: bold;
+  color: rgb(46, 87, 87);
 } 
