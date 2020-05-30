@@ -31,13 +31,16 @@ class App extends Component{
     return(
       <div className='App'>
         <header className="App-header">
-          <h1>Stop Watch</h1>
+          <div className='appName'>
+            <h1 className='appName'>Stop Watch</h1>
+          </div>
           <div className='Circle'>
             {this.array(24).map((val, index) => {
               return (
                 <div key={index}
+                className={`hour hand ${val===(this.state.hour)?"on":""}`}
                 style={{transform: `rotate(${index*(360/24)-(360/24)*(this.state.hour-1)}deg)`}}>
-                  {`${val} hour`}
+                  {`${val} hr`}
                 </div>
               )
             })}
@@ -45,6 +48,7 @@ class App extends Component{
             {this.array(60).map((val, index) => {
               return (
                 <div key={index}
+                className={`minute hand ${val===(this.state.minute)?"on":""}`}
                 style={{transform: `rotate(${index*(360/60)-(360/60)*(this.state.minute-1)}deg)`}}>
                   {`${val} min`}
                 </div>
@@ -54,6 +58,7 @@ class App extends Component{
           {this.array(60).map((val, index) => {
               return (
                 <div key={index}
+                className={`second hand ${val===(this.state.second)?"on":""}`}
                 style={{transform: `rotate(${index*(360/60)-(360/60)*(this.state.second-1)}deg)`}}>
                   {`${val} sec`}
                 </div>
