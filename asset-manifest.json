@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Compass-Clock-using-React/static/css/main.913387db.chunk.css",
+    "main.js": "/Compass-Clock-using-React/static/js/main.40f67f2d.chunk.js",
+    "main.js.map": "/Compass-Clock-using-React/static/js/main.40f67f2d.chunk.js.map",
+    "runtime-main.js": "/Compass-Clock-using-React/static/js/runtime-main.e94f44d9.js",
+    "runtime-main.js.map": "/Compass-Clock-using-React/static/js/runtime-main.e94f44d9.js.map",
+    "static/js/2.90018e97.chunk.js": "/Compass-Clock-using-React/static/js/2.90018e97.chunk.js",
+    "static/js/2.90018e97.chunk.js.map": "/Compass-Clock-using-React/static/js/2.90018e97.chunk.js.map",
+    "index.html": "/Compass-Clock-using-React/index.html",
+    "precache-manifest.23890ec7c108b69105301ff923e5cc11.js": "/Compass-Clock-using-React/precache-manifest.23890ec7c108b69105301ff923e5cc11.js",
+    "service-worker.js": "/Compass-Clock-using-React/service-worker.js",
+    "static/css/main.913387db.chunk.css.map": "/Compass-Clock-using-React/static/css/main.913387db.chunk.css.map",
+    "static/js/2.90018e97.chunk.js.LICENSE.txt": "/Compass-Clock-using-React/static/js/2.90018e97.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e94f44d9.js",
+    "static/js/2.90018e97.chunk.js",
+    "static/css/main.913387db.chunk.css",
+    "static/js/main.40f67f2d.chunk.js"
+  ]
+}
